@@ -5,7 +5,7 @@
    ))
 
 (defn main-panel []
-  (let [name (re-frame/subscribe [::subs/name])]
+  (let [primitives (re-frame/subscribe [::subs/primitives])]
     [:div
-     [:h1 "Hello from " @name]
+     [:p (str @primitives)]
      ]))
