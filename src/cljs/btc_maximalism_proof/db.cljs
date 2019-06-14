@@ -46,21 +46,32 @@
                  :parent-b 0}
                 {:id 5
                  :title "Immaculate Conception"
-                 :description "Bitcoin showed a degree of resistance to censorship that cannot be replicated because of the extraordinary uniqueness of the historical condition. Because of Satoshi’s opsec, Satoshi’s incentives and historical salience (2008) 
-In 2009 you can stay in the underground doing this kind of work because anarchist money was an experiment that 20 people are trying since a decade failing. Any operation that now tries to do this now, is under heavier scrutiny and has a larger risk of being compromised. Social attack vectors would be viable now, as more people care about this.
-It may not be enough as Satoshi could be in a jail right now, but now it would be orders of magnitude harder than the original attempt.
-Satoshi’s incentives also weren’t about buying a lamborghini in the next months. After the bitcoin bubbles and ico bubbles. Satoshi didn’t ask the question “How can I get payed for the work I’m doing?”. He didn’t create a newsletter and send out an email saying “here’s an idea, a whitepaper, i can make it come true, but first wire me 20 million bucks”. he created the whitepaper, nobody cared, launched the software and then it started to work. This doesn’t mean asking for money is evil. It’s just that the incentive structure satoshi had wasn’t strictly connected to monetization. He could afford to launch something because in his opinion the world needed something like that. Even if you try to do that people around you will know. And will attract people with bad incentives.
-The schelling point is bitcoin, if you think about cryptocurrency, the majority of people will think we’re talking about bitcoin. "
+                 :description [:div 
+                               [:p "Bitcoin showed a degree of resistance to censorship that cannot be replicated because of the extraordinary uniqueness of the historical condition when it was conceived."]
+                               [:p "Satoshi had an opsec and incentives that cannot be replicated"]
+                               [:p "The historical context is also impossible to replicate"]
+                               [:p "In 2009 someone could stay in the underground doing this kind of work because anarchist money was an experiment. At most 20 people in the whole wolrd were actively pursuing this since a decade."]
+                               [:p "Failing."]
+                               [:p "Any operation that now tries to do this, is under heavy scrutiny and has a larger risk of being compromised. Social attack vectors would be viable now, as more people care about this."]
+                               [:p "It may not be enough though as Satoshi could be in a jail right now. But today it would be orders of magnitude harder than the original attempt."]
+                               [:p "Satoshi’s incentives also weren’t about buying a Lamborghini in the next months. Satoshi didn’t ask “How can I get payed for the work I’m doing?”."] 
+                               [:p "He didn’t create a newsletter and send out an email saying “Here’s an idea, a whitepaper, i can turn it into reality, but first wire me 20 million bucks”."]
+                               [:p "He created the whitepaper, nobody cared, launched the software and then it started to work."] 
+                               [:p "This doesn’t mean asking for money is evil. It’s just that the incentive structure satoshi had wasn’t strictly connected to monetization. He could afford to launch something because in his opinion the world needed something like that."]
+                               [:p "Even if you try to do this today, people around you will know. And you will attract people with bad incentives, looking to make money with the \"Next Bitcoin\"."]]
                  :parent-a 0
                  :parent-b 0}
                 {:id 6
                  :title "Scam Definition"
-                 :description "A Scam is someone that acquires money wealth and power fame or lambos by lying and that person understood they were lying or have enough information to realise so, then they’re scammers."
+                 :description "A scammer is someone that acquires money, wealth, power or fame by lying. While understanding they are lying or having enough information to realise so."
                  :parent-a 0
                  :parent-b 0}
                 {:id 7
                  :title "Simplification Proviso"
-                 :description "When you have to counteract social attacks it’s okay to reduce the nuances and oversimplify things to create a set of heuristics easy to communicate and use.\neg. “You should not roll your own cryptography”"
+                 :description [:div 
+                               [:p "When you have to counteract social attacks it’s okay to reduce the nuances and oversimplify things. Creating a set of heuristics that are easy to communicate and use."]
+                               [:p "eg. “You should not roll your own cryptography”"]
+                               [:p "“Nigerian princes are scammers”"]]
                  :parent-a 0
                  :parent-b 0}
                 {:id 8
