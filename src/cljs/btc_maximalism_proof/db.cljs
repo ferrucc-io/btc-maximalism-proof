@@ -3,24 +3,45 @@
 (def default-db
   {:primitives [{:id 1
                  :title "Hard vs Easy"
-                 :description "Money that is hard to create and censor is hard to come by. There’s already a lot of money that is easy to censor and easy to create, no need for other alternatives. The alternative cannot be diluted or censored. Differences must be kept."
+                 :description "Money that is hard to create and censor is hard to come by. There’s already a lot of money that is easy to censor and easy to create (Paypal, Venmo, WePay, Transferwise etc..), so there's no need for other alternatives. The alternative that is needed has to have different characteristics: it has to be non dilutable and censorship resistant. These differences must be kept. Bitcoin doesn't have to have a friendly UX, customer support and fraud protection, those things already exist elsewhere."
                  :parent-a 0
                  :parent-b 0}
                 {:id 2
                  :title "Coinbase & Blockchain"
-                 :description "There’s nothing new in bitcoin, most of them are legacy. Only two new things are coinbase process, fixed monetary policy and blockchain. Blockchain is not a silver bullet, it makes systems worse, slower and less privacy friendly."
+                 :description [:div 
+                               [:p "There’s nothing new in bitcoin, most of the technologies used in it are legacy."] 
+                               [:p "The are only two new things in Bitcoin:"]
+                                [:ul
+                                 [:li "the Coinbase process"]
+                                 [:li "Blockchain" ]
+                                 ]
+                                [:p "Blockchain is not a silver bullet, it makes systems worse, slower and less privacy friendly."]]
                  :parent-a 0
                  :parent-b 0}
 
                 {:id 3
                  :title "Cloning Theorem"
-                 :description "In FLOSS if a project  is successful and there’s money to be made with a project somebody will clone it. because bitcoin software is free everyone will try to copy it. every person that can create money will try to create money. everybody will try to create their scam coin."
+                 :description [:div 
+                                [:p "In FLOSS if a project is successful and there’s money to be made with it somebody will clone it. Because bitcoin software is free everyone will try to copy it."]
+                               [:p "Every person that can create money will try to create money. So everybody will try to create their own scam coin."]]
                  :parent-a 0
                  :parent-b 0}
                 {:id 4
                  :title "Top VS Bottom"
-                 :description "Complex systems are layered. Infrastructures languages and protocols are a base layer, products that compete are meant to stay in upper layers. Competition belongs to top layers. The market doesn’t want many social medias changing too much. But you can have competition at this layer, slower. The world wide web instead is something we want to change at an even slower pace. Every time the web changes you destroy the upper levels to change. The free market converges to the use of one protocol, a common language. Below the web tcp/ip v4, was finalised in 1983, the market refused changes since then. Even during the cold war we were using the same tcp/ip, even china with the great firewall is using it. This doesn’t mean the protocol is perfect, in fact it sucks. When trying to build skype, developers realised TCP/IP wasn’t scalable enough, so they changed it, but the market refused it. And today any call we do we still use this ugly old protocol and it’s immutable. TCP/IP 6 exists, but in 20 years we haven’t been able to migrate to it. 20% of the internet is migrating.
-At a communication level, even as humans right now we’re converging to English, even if it’s not my native language, and most likely (from my Google Analytics data) not even yours. This is not because english is the best language, but because of network effects."
+                 :description [:div 
+                               [:p "Complex systems are layered." ]
+                               [:p "Infrastructures, languages and protocols are a base layers, where having competition isn't optimal."]
+                               [:p "Products that compete are meant to stay in upper layers."]
+                               [:p "Why? If you like video games you want competition between game studios. For video game it's great to have dynamic markets where leaders change every year or less"]
+                               [:p "For consoles, you want to have some competition, but you don't want a market that is as fast paced"]
+                               [:p "For 3D Game engines you want some competition, but also some standards that last years"]
+                               [:p "For the gaming CPUs you don't want to drastic architecture changes for 10 years and hundreds of alternatives." ]
+                               [:p "The free market at base layers converges to the use of one protocol, a common language."]
+                               [:p "A good example is the Web. TCP/IP v4, was finalised in 1983, and the market refused changes since then. Even during the cold war we were using TCP/IP, even china with the great firewall is using it. This doesn’t mean the protocol is perfect, in fact it sucks."]
+                               [:p "When trying to build Skype, developers realised TCP/IP wasn’t scalable enough, so they changed it, but the market refused it. And today any call we do we still use this ugly old protocol and it’s immutable. TCP/IP 6 exists, but in 20 years we haven’t been able to migrate to it. Only 20% of the internet is actually using it."]
+                               [:p "Even for communication, right now we’re converging to the English language, even if it’s not my native language, even if it's not the most beatiful language. This is not because english is the best language, but because of network effects."]
+                               [:p "But why does this have anything to do with money and value?"]
+                               [:p "With money and value you want even more stability. You want to be able to store wealth for as long as you can, passing it along to the next generations."]]
                  :parent-a 0
                  :parent-b 0}
                 {:id 5
@@ -136,7 +157,7 @@ If it cannot be replicated altcoin lose and we have hard money."
                  :parent-b 6}
                 {:id 26
                  :title "3rd Principle"
-                 :description "Grisham law. If there’s good money and bad money, bad money circulates a lot in the economy, while good money disappears from the economy and it’s used to store value. So every attempt to push people to spend bitcoin is a scam."
+                 :description "Gresham law. If there’s good money and bad money, bad money circulates a lot in the economy, while good money disappears from the economy and it’s used to store value. So every attempt to push people to spend bitcoin is a scam."
                  :parent-a 25
                  :parent-b 7}
                 {:id 27
