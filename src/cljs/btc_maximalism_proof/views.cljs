@@ -2,18 +2,26 @@
   (:require
    [re-frame.core :as re-frame]
    [btc-maximalism-proof.subs :as subs]
+   [garden.core :refer [css]]
    ))
 
 
 (defn primitive-component [primitive]
-  (let [id (get :id primitive)])
-  )
+  (let [id (get primitive :id)
+        title (get primitive :title)
+        description (get primitive :description)
+        parent-a (get primitive :parent-a)
+        parent-b (get primitive :parent-b)]
+    [:div 
+     [:div {:class "" :id (str "p" id)}
+      [:h5 (str id " - " title)]
+      [:p description]]]))
 
 
 (defn principle-component [number principle]
   [:div {:class "principle-header-container"}
        [:div
-        [:p (str number " Principle")]]
+        [:p {:class "principle-number"} (str number " Principle")]]
         [:h4 principle]])
 
 
@@ -28,5 +36,5 @@
       (principle-component "3rd" "Every attempt to push people to spend bitcoin is a scam.")
       (principle-component "4th" "We shouldn’t be kind with scammers")]
      [:div
-       [:p (str @primitives)]]
+       [:div (map #(primitive-component %) @primitives)]]
      ]))

@@ -60,87 +60,94 @@ For instance if you get bigger blocks, you also raise the synchronization costs.
                  :parent-b 0}
                 {:id 11
                  :title "Blockchain Fallacy"
-                 :description ""
+                 :description "Blockchain without characteristics similar to bitcoin doesn’t make sense. The blockchain is a piece of tech created to avoid double spend in an open system. If you don’t have an open system you don’t need blockchain, if you don’t have a double spending problem you don’t need blockchain and blockchain works because there’s some kind of asset that incentivizes the opportunity cost of miners  without opportunity cost you don’t have any opportunity cost of mining on different histories so you don’t have any unicity of history. Blockchain makes sense to use only for something very similar to bitcoin. Anything that is not similar to bitcoin doesn’t need to use a blockchain."
                  :parent-a 1
                  :parent-b 2}
                 {:id 12
                  :title "Supply Inflation"
-                 :description ""
+                 :description "If everybody is incentived to create new copies of bitcoin then everybody will and if the money was not hard to generate, then we’d have inflation in supply without any kind of predictable schedule. The schedule of cryptocurrencies is not predictable. If it is difficult to recreate the bitcoin features everybody will want to do that and we’ll have infinite supply. "
                  :parent-a 1
                  :parent-b 3}
                 {:id 13
-                 :title ""
-                 :description ""
-                 :parent-a 0
-                 :parent-b 0}
+                 :title "King Plausibility"
+                 :description "I don’t know if bitcoin can be the last one, but I know that because of 5 and 4 Bitcoin could have something which is not possible to replicate. and i know that if it can be replicated it will be replicated forever destroying the limited supply argument."
+                 :parent-a 4
+                 :parent-b 5}
                 {:id 14
-                 :title ""
-                 :description ""
-                 :parent-a 0
-                 :parent-b 0}
+                 :title "Cryptocurrency Fallacy"
+                 :description "Bitcoin can fail, but cryptocurrencies cannot succeed. maybe bitcoin can be reproduced, and we won’t have hard money then we’re back to fiat money.
+If it cannot be replicated altcoin lose and we have hard money."
+                 :parent-a 12
+                 :parent-b 13}
                 {:id 15
-                 :title ""
-                 :description ""
-                 :parent-a 0
-                 :parent-b 0}
+                 :title "Non Bitcoin Fallacy"
+                 :description "Any project that claims to be similar to bitcoin but is not bitcoin can’t be something that can succeed"
+                 :parent-a 11
+                 :parent-b 14}
                 {:id 16
-                 :title ""
-                 :description ""
-                 :parent-a 0
-                 :parent-b 0}
+                 :title "1st Principle (soft)"
+                 :description "In a complex contest with a lot of noise, it’s safe to assume that what is not bitcoin is possibly a scam"
+                 :parent-a 15
+                 :parent-b 6}
                 {:id 17
-                 :title ""
-                 :description ""
-                 :parent-a 0
-                 :parent-b 0}
+                 :title "1st Principle"
+                 :description "In a context with a lot of noise and full of noobs it doesn’t make sense to elaborate the whole explanation. So simplifying we can say: \"Everything that is not Bitcoin is a scam\" "
+                 :parent-a 16
+                 :parent-b 7}
                 {:id 18
-                 :title ""
-                 :description ""
-                 :parent-a 0
-                 :parent-b 0}
+                 :title "Expected pressure"
+                 :description "When some people see the tradeoff and can’t accept they will pose pressure to change bitcoin in a way that ignores trade-offs."
+                 :parent-a 8
+                 :parent-b 2}
                 {:id 19
-                 :title ""
-                 :description ""
-                 :parent-a 0
-                 :parent-b 0}
+                 :title "No Rush"
+                 :description "If bitcoin doesn’t do something now it doesn’t matter, because if it was possible to create an alternative without destroying everything then ok, we have infinite inflations. if altcoins are impossible there’s no reason to change bitcoin. in general no rush. if something else takes over okay. but if there is no way for something else to take over then there’s no rush to change the status quo."
+                 :parent-a 18
+                 :parent-b 14}
                 {:id 20
-                 :title ""
-                 :description ""
-                 :parent-a 0
-                 :parent-b 0}
+                 :title "Change Fallacy"
+                 :description "Since there’s no rush to change bitcoin, every change we can do on an upper layer, we should do it on an upper layer and only very slowly propose in due time propose to migrate to the new version of the lower level."
+                 :parent-a 19
+                 :parent-b 4}
                 {:id 21
-                 :title ""
-                 :description ""
-                 :parent-a 0
-                 :parent-b 0}
+                 :title "2nd Principle (soft)"
+                 :description "When there’s high noise it’s very safe to assume that any attempt to change bitcoin is fraudolent."
+                 :parent-a 20
+                 :parent-b 6}
                 {:id 22
-                 :title ""
-                 :description ""
-                 :parent-a 0
-                 :parent-b 0}
+                 :title "2nd Principle"
+                 :description "Every attempt to change bitcoin is a scam."
+                 :parent-a 21
+                 :parent-b 7}
                 {:id 23
-                 :title ""
-                 :description ""
-                 :parent-a 0
-                 :parent-b 0}
+                 :title "Hyperbitcoinization Hypothesis"
+                 :description "We can imagine that the entire economy of the world changes, time preference of economical actors goes down, interest rates increase to natural levels. we stop borrowing money and start saving more money."
+                 :parent-a 1
+                 :parent-b 13}
                 {:id 24
-                 :title ""
-                 :description ""
-                 :parent-a 0
-                 :parent-b 0}
+                 :title "Adoption Fallacy"
+                 :description "It doesn’t really matter if people really adopt bitcoin, if bitcoin is niche and works we can get to mass adoption. if bitcoin is mass adopted but doesn’t work as intended we have zero. the priority is keeping bitcoin doing what it does"
+                 :parent-a 23
+                 :parent-b 11}
                 {:id 25
-                 :title ""
-                 :description ""
-                 :parent-a 0
-                 :parent-b 0}
+                 :title "3rd Principle (soft)"
+                 :description "It’s very likely that any kind of message that you get about using bitcoin as transactional money right now instead of focusing on hyperbitcoinisation is very likely to be a scam. When overstock accepts bitcoin it isn’t great. You want to have people saving bitcoin, not accepting bitcoin and dumping it on the market. Not even storing it as money."
+                 :parent-a 24
+                 :parent-b 6}
                 {:id 26
-                 :title ""
-                 :description ""
-                 :parent-a 0
-                 :parent-b 0}
+                 :title "3rd Principle"
+                 :description "Grisham law. If there’s good money and bad money, bad money circulates a lot in the economy, while good money disappears from the economy and it’s used to store value. So every attempt to push people to spend bitcoin is a scam."
+                 :parent-a 25
+                 :parent-b 7}
                 {:id 27
-                 :title ""
-                 :description ""
-                 :parent-a 0
-                 :parent-b 0}
+                 :title "4th Principle (soft)"
+                 :description "If there’s a social layer on bitcoin, and we want to get rid of the statist regulation system, we have to put more effort in debunking lies and calling out scammers.
+If you can make people pay some social cost for being scammers, make them pay."
+                 :parent-a 9
+                 :parent-b 10}
+                {:id 28
+                 :title "4th Principle"
+                 :description "We shouldn’t be kind with scammers"
+                 :parent-a 27
+                 :parent-b 7}
                 ]})
