@@ -34,4 +34,16 @@
   [:.primitive-box {:border-radius "3px"
                     :border "1px solid rgba(0,0,0,0.1)"
                     :padding "1rem"
-                    :margin-bottom "1rem"}])
+                    :margin-bottom "1rem"}]
+  [:.parent-container {:color "rgb(255, 254, 252)"
+                       :display "flex" 
+                       :justify-content "space-evenly"
+                       :align-content "stretch"
+                       :align-items "center"}]
+  [:.parent-container-link {:color "rgb(255, 254, 252)"
+                            :background "rgb(4, 4, 2)"
+                            :padding "0.5rem 1rem"
+                            :margin-bottom "0.5rem"
+                            :border-radius "3px"
+                            :text-decoration "none"}]
+  [:.black {:color "rgb(4, 4, 2)"}])

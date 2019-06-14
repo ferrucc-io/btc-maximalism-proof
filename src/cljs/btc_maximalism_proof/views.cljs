@@ -12,11 +12,26 @@
         description (get primitive :description)
         parent-a (get primitive :parent-a)
         parent-b (get primitive :parent-b)]
-    [:div
-     [:div {:class "component-container" :id (str "p" id)}
-      [:div {:class "primitive-box"}
-       [:h5 (str id " - " title)]
-       [:div description]]]]))
+    (if (= parent-a 0)
+      [:div
+       [:div {:class "component-container" :id (str "p" id)}
+        [:div {:class "primitive-box"}
+         [:h5 (str id " - " title)]
+         [:div description]]]]
+      [:div
+       [:div {:class "component-container" :id (str "p" id)}
+         [:div {:class "parent-container"}
+          [:a {:href (str "#p" parent-a) :class "parent-container-link"} 
+           [:div
+            [:p (str "Primitive " parent-a)]]]
+          [:p {:class "black"} "+"]
+          [:a {:href (str "#p" parent-b) :class "parent-container-link"} 
+           [:div 
+            [:p (str "Primitive " parent-b)]]]]
+        [:div {:class "primitive-box"}
+         [:h5 (str id " - " title)]
+         [:div description]]]])))
+
 
 
 (defn principle-component [number principle]
