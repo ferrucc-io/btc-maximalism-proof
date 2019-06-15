@@ -47,9 +47,7 @@
        (principle-component "1st" "Everything that is not bitcoin is a scam." "17")
        (principle-component "2nd" "Every attempt to change bitcoin is a scam." "22" )
        (principle-component "3rd" "Every attempt to push people to spend bitcoin is a scam." "26")
-       (principle-component "4th" "We shouldn’t be kind with scammers" "28")
-      [:div {:class "relative"}
-       [:div {:class "growth-background"}]]]
+       (principle-component "4th" "We shouldn’t be kind with scammers" "28")]
       [:div {:on-click #(re-frame/dispatch [:change-route :about])
              :class "context-container"}
        [:p {:class "context-gif"} "🤔"]
