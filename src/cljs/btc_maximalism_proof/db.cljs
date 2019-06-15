@@ -1,7 +1,8 @@
 (ns btc-maximalism-proof.db)
 
 (def default-db
-  {:primitives [{:id 1
+  {:route :home
+   :primitives [{:id 1
                  :title "Hard vs Easy"
                  :description "Money that is hard to create and censor is hard to come by. There’s already a lot of money that is easy to censor and easy to create (Paypal, Venmo, WePay, Transferwise etc..), so there's no need for other alternatives. The alternative that is needed has to have different characteristics: it has to be non dilutable and censorship resistant. These differences must be kept. Bitcoin doesn't have to have a friendly UX, customer support and fraud protection, those things already exist elsewhere."
                  :parent-a 0

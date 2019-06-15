@@ -6,3 +6,8 @@
  ::primitives
  (fn [db]
    (:primitives db)))
+
+(re-frame/reg-sub
+ ::route
+ (fn [db]
+   (:route db)))

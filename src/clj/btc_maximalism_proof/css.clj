@@ -34,6 +34,7 @@
                      :margin-top "2rem"}]
   [:.primitive-box {:border-radius "3px"
                     :border "1px solid rgba(0,0,0,0.1)"
+                    :background "rgb(255,254,252)"
                     :padding "1rem"
                     :margin-bottom "1rem"}]
   [:.parent-container {:color "rgb(255, 254, 252)"
@@ -60,4 +61,40 @@
               :align-items "center"
               :padding "0.2rem"
               :border-radius "3px"}]
-  [:a:link {:text-decoration "none"}])
+  [:a:link {:text-decoration "none"}]
+  [:.context-container {:position "fixed"
+                        :bottom "0px"
+                        :right "0px"
+                        :width "300px"
+                        :padding "0.4rem"
+                        :padding-bottom "0"
+                        :border-radius "3px"
+                        :border "1px solid rgba(0,0,0,0.1)"
+                        :margin "0.5rem"
+                        :cursor "pointer"
+                        :display "flex"
+                        :background "rgb(255,254,252)"
+                        :align-items "center"}]
+  [:.context-gif {:font-size "3em"
+                  :line-height "0"
+                  :margin-right "0.5rem"
+                  :margin-left "0.5rem"
+                  }]
+  [:.context-please {:font-weight "500"
+                     :padding "0.2rem"
+                     :padding-top "0px"
+                     :margin-top "0px"
+                     :padding-bottom "0px"
+                     :margin-bottom "0.1rem"}]
+  [:.link {:font-weight "500"
+           :cursor "pointer"}]
+  [:.link:hover {:text-decoration "underline"}]
+  [:.nav-button {:position "fixed"
+                 :bottom "0px"
+                 :left "0px"
+                 :border-radius "3px"
+                 :margin "1rem 0.5rem"
+                 :padding "0.5rem 1rem"
+                 :background "rgb(255,254,252)"
+                 :border "1px solid rgba(0,0,0,0.1)"}]
+  [:.the-end {:padding "4rem"}])
