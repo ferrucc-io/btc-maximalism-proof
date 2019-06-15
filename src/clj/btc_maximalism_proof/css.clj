@@ -16,8 +16,9 @@
                                  :padding "1rem"
                                  :max-width "500px"
                                  :width "auto"
-                                 :margin "0.5rem auto"}]
-  [:.principle {:font-size "2em"}]
+                                 :margin "0.5rem auto"
+                                 :background "rgb(255,254,252)"}]
+  [:.principle {:font-size "2em" :color "black" :text-decoration "none"}]
   [:.label 
    {:color "#403294" 
     :background "#EAE6FF" 
@@ -47,5 +48,16 @@
                             :border-radius "3px"
                             :text-decoration "none"}]
   [:.black {:color "rgb(4, 4, 2)"}]
-  [:.credits-text {:font-weight "600" :text-decoration "none"}]
-  [:.credits-image {:width "25px" :height "25px" :border-radius "100%"}])
+  [:.credits-text {:font-weight "600" 
+                   :text-decoration "none"
+                   :color "black"
+                   :margin-left "0.5rem"}]
+  [:.credits-image {:width "30px"
+                    :height "30px"
+                    :margin-left "0.1rem"
+                    :border-radius "100%"}]
+  [:.credits {:display "flex"
+              :align-items "center"
+              :padding "0.2rem"
+              :border-radius "3px"}]
+  [:a:link {:text-decoration "none"}])
