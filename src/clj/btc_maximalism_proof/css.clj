@@ -46,4 +46,6 @@
                             :margin-bottom "0.5rem"
                             :border-radius "3px"
                             :text-decoration "none"}]
-  [:.black {:color "rgb(4, 4, 2)"}])
+  [:.black {:color "rgb(4, 4, 2)"}]
+  [:.credits-text {:font-weight "600" :text-decoration "none"}]
+  [:.credits-image {:width "25px" :height "25px" :border-radius "100%"}])

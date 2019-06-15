@@ -16,7 +16,7 @@
       [:div
        [:div {:class "component-container" :id (str "p" id)}
         [:div {:class "primitive-box"}
-         [:h5 (str id " - " title)]
+         [:h3 (str id " - " title)]
          [:div description]]]]
       [:div
        [:div {:class "component-container" :id (str "p" id)}
@@ -29,7 +29,7 @@
            [:div 
             [:p (str "Primitive " parent-b)]]]]
         [:div {:class "primitive-box"}
-         [:h5 (str id " - " title)]
+         [:h3 (str id " - " title)]
          [:div description]]]])))
 
 
@@ -52,6 +52,18 @@
       (principle-component "3rd" "Every attempt to push people to spend bitcoin is a scam.")
       (principle-component "4th" "We shouldn’t be kind with scammers")]
      [:div {:class "second-section"}
-       [:h1 "Why?"]
+       [:h1 "Why? Isn't this a bit extreme?"]
+       [:div
+        [:p "Let's start with these 10 reasonable and universally agreeable primitives, and derive the 4 principles from there."]]
        [:div (map #(primitive-component %) @primitives)]]
-     ]))
+     [:div
+      [:h4 "Credits"]
+      [:a {:href "https://twitter.com/0xferruccio"}
+      [:div {:class "credits"}
+       [:img {:src "img/ferruccio.jpg" :class "credits-image"}]
+       [:p {:class "credits-text"} "Ferruccio Balestreri"]]]
+      [:a {:href "https://twitter.com/giacomozucco"}
+      [:div {:class "credits"}
+       [:img {:src "img/giacomo.jpg" :class "credits-image"}]
+       [:p {:class "credits-text"} "Giacomo Zucco"]]]]
+]))
