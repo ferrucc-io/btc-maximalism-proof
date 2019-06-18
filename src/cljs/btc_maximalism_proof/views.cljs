@@ -87,22 +87,24 @@
     [:p "Bitcoin Maximalism is a rational conclusion based on facts and logical connections, and this site is here to connect the dots."]
     [:p "It's a generous and altruistic position, in order to help the greater good and help society transition towards less laws and more individual responsibility."]
     [:p "This site was strongly inspired by these two talks (which were supposed to be one) by Giacomo:"]
-    [:iframe
-    {:allowfullscreen "allowfullscreen",
-     :allow
-     "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
-     :frameborder "0",
-     :src "https://www.youtube.com/embed/D2WXxgZ8h-0?start=716",
-     :height "315",
-     :width "560"}]
-    [:iframe
-    {:allowfullscreen "allowfullscreen",
-     :allow
-     "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
-     :frameborder "0",
-     :src "https://www.youtube.com/embed/NRH_HepKUZA",
-     :height "315",
-     :width "560"}]]])
+    [:div {:class "video-wrapper"}
+     [:iframe
+      {:allowfullscreen "allowfullscreen",
+       :allow "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+       :frameborder "0",
+       :src "https://www.youtube.com/embed/D2WXxgZ8h-0?start=716",
+       :height "315",
+       :width "560"}]]
+    [:div {:class "video-wrapper"}
+     [:iframe
+      {:allowfullscreen "allowfullscreen",
+       :allow
+       "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+       :frameborder "0",
+       :src "https://www.youtube.com/embed/NRH_HepKUZA",
+       :height "315",
+       :width "560"}]]]])
+
 
 (defmulti panels identity)
 (defmethod panels :home [] [home])

@@ -74,7 +74,8 @@
                         :cursor "pointer"
                         :display "flex"
                         :background "rgb(255,254,252)"
-                        :align-items "center"}]
+                        :align-items "center"
+                        :transition "bottom 0.3s"}]
   [:.context-gif {:font-size "3em"
                   :line-height "0"
                   :margin-right "0.5rem"
@@ -96,5 +97,16 @@
                  :margin "1rem 0.5rem"
                  :padding "0.5rem 1rem"
                  :background "rgb(255,254,252)"
-                 :border "1px solid rgba(0,0,0,0.1)"}]
-  [:.the-end {:padding "4rem"}])
+                 :border "1px solid rgba(0,0,0,0.1)"
+                 :z-index "1"}]
+  [:.the-end {:padding "4rem"}]
+  [:.video-wrapper {:position "relative"
+                    :padding-bottom "56.25%"
+                    :padding-top "25px"
+                    :margin-bottom "25px"
+                    :height "0"}]
+  [:.video-wrapper [:iframe {:position "absolute"
+                             :top "0"
+                             :left "0"
+                             :width "100%"
+                             :height "100%"}]])
