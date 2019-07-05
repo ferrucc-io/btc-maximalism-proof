@@ -125,8 +125,8 @@
                 {:id 13
                  :title "King Plausibility"
                  :description [:div 
-                               [:p "I don’t know if bitcoin can be the last one, but I know that because of its Immaculate conception and its being a \"bottom\" layer Bitcoin could have something which is not possible to replicate."]
-                               [:p "And i know that if it can be replicated it will be replicated forever. And if it does we'll have infinite supply and will be worthless."]]
+                               [:p "I don’t know if bitcoin can be the last one. But I know that because of its Immaculate conception and because it's a \"bottom\" layer technology it could have something which is not possible to replicate."]
+                               [:p "If it can be replicated it will be replicated forever. And if it does we'll have infinite supply and will be worthless."]]
                  :parent-a 4
                  :parent-b 5}
                 {:id 14
@@ -144,7 +144,7 @@
                  :parent-b 14}
                 {:id 16
                  :title "1st Principle (soft)"
-                 :description "In a complex contest with a lot of noise, it’s safe to assume that what is not bitcoin is possibly a scam"
+                 :description "In a complex context with a lot of noise, it’s safe to assume that what is not bitcoin is possibly a scam"
                  :parent-a 15
                  :parent-b 6}
                 {:id 17
